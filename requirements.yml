@@ -1,0 +1,5 @@
+roles:
+  - name: ansible-role-postgre-install
+    src: https://github.com/protasov-kun/ansible-role-postgre-install.git
+    version: main
+  
