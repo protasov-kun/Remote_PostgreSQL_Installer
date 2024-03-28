@@ -3,14 +3,3 @@
   become: yes
   roles:
     - ansible-role-postgre-install
-
-- hosts: hosts
-  tasks:
-    - name: Check PostgreSQL connectivity
-      become_user: postgres
-      shell: psql -U postgres -c "SELECT 1;"
-      register: postgresql_check_result
-      ignore_errors: yes
-
-    - debug:
-        msg: "PostgreSQL is {{ 'not ' if postgresql_check_result.rc != 0 else '' }}running."

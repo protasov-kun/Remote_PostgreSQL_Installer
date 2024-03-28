@@ -1,2 +1,2 @@
 [hosts]
-178.154.207.77
+host1 ansible_host=enter_ip_or_hostname ansible_user=enter_username

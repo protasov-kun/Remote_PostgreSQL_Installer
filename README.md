@@ -7,3 +7,5 @@ pip install psycopg2
 pip install fabric
 
 ansible-galaxy install --force -r requirements.yml
+
+sudo usermod -aG protas python
