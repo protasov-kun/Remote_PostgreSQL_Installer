@@ -1,2 +1,2 @@
 [hosts]
-host1 ansible_host=enter_ip_or_hostname ansible_user=enter_username
+host1 ansible_host=ENTER_IP_OR_HOSTNAME ansible_user=ENTER_USER

@@ -1,5 +1,5 @@
 - name: Install and configure PostgreSQL
   hosts: hosts
-  become: yes
+  become: true
   roles:
     - ansible-role-postgre-install
